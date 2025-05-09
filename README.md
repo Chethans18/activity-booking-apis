@@ -1,4 +1,4 @@
-# Activity Booking API – Backend Project
+## Activity Booking API – Backend Project
 
 This project is a RESTful backend for a basic Activity Booking App, built as part of the Backend Development.
 
@@ -25,7 +25,7 @@ This project is a RESTful backend for a basic Activity Booking App, built as par
 
 ## Project Structure
 
-\`\`\`
+```
 activity-booking-app/
 ├── controllers/
 │   ├── authController.js
@@ -47,25 +47,25 @@ activity-booking-app/
 ├── app.js
 ├── package.json
 └── README.md
-\`\`\`
+```
 
 ## Installation
 
 1. **Initialize the project**:
-    \`\`\`bash
+    ```bash
     npm init -y
     npm install express mongoose bcryptjs jsonwebtoken dotenv cors express-validator
     npm install --save-dev nodemon
-    \`\`\`
+    ```
 
 2. **Create a `.env` file in the root directory**:
-    \`\`\`env
+    ```env
     PORT=5000
     MONGO_URI=your_mongo_connection_string
     JWT_SECRET=your_jwt_secret_key
-    \`\`\`
+    ```
 
 3. **Start the server**:
-    \`\`\`bash
+    ```bash
     npm start
-    \`\`\`
+    ```
