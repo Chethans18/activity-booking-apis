@@ -61,10 +61,10 @@ npm install --save-dev nodemon
 
 # Create a .env file in the root directory
 
-PORT=5000
+PORT=YOUR_PORT
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_jwt_secret_key
 
 # Start the server
 
-npm start
+npm run dev
