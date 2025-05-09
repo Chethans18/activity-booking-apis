@@ -51,20 +51,19 @@ activity-booking-app/
 
 ## Installation
 
-1. **Initialize the project**:
+1. **Clone the repository**:
     ```bash
-    npm init -y
-    npm install express mongoose bcryptjs jsonwebtoken dotenv cors express-validator
-    npm install --save-dev nodemon
+        git clone https://github.com/Chethans18/activity-booking-apis.git
+        cd activity-booking-apis
+        npm install
     ```
-
-2. **Create a `.env` file in the root directory**:
+2. **Set up environment variables**:
+   Create a `.env` file in the root directory and add the following:
     ```env
-    PORT=5000
+    PORT=3000
     MONGO_URI=your_mongo_connection_string
     JWT_SECRET=your_jwt_secret_key
     ```
-
 3. **Start the server**:
     ```bash
     npm start
